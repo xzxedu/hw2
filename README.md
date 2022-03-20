@@ -1,14 +1,5 @@
 # Assignment 2: Weakly Supervised Object Localization
 
-- [Visual Learning and Recognition (16-824) Spring 2021](https://visual-learning.cs.cmu.edu/)
-- Updated by: [Sanil Pande](https://sanilpande.github.io/)
-- Created by : [Senthil Purushwalkam](http://www.cs.cmu.edu/~spurushw/)
-- TAs: [Sanil Pande](https://sanilpande.github.io/), [Sudeep Dasari](https://sudeepdasari.github.io/), [Ziyan Wang](https://ziyanw1.github.io/)
-
-- We will be keeping an updated FAQ on piazza. Please check the FAQ post before posting a question.
-- Due date: March 29th, 2021 at 11:59pm EST.
-- Total points: 100
-
 In this assignment, we will learn to train object detectors in the *weakly supervised* setting, which means you're going to train object detectors without bounding box annotations!
 
 We will use the [PyTorch](pytorch.org) framework to design our models, train and test them. We will also be using [Weights and Biases](https://wandb.ai/site) for visualizations and to log our metrics. This assignment borrows heavily from the [previous version](https://bitbucket.org/cmu16824_spring2020/2020_hw2_release/src/master/), but is now upgraded to Python 3, and does not depend upon the now deprecated Faster-RCNN repository.
